@@ -1,3 +1,19 @@
+The admin (Django) and main (Flask) services communicate with each other using events sent to/received from RabbitMQ. The main service also internally sends API requests to the admin app. Both services have their own MySQL databases. 
+
+The admin service allows the seller to create, update, and delete her products. The main service allows the customer to view and like products for sale. 
+
+This project is not hosted on any domain. You can download and run localhost on the react-crud app and play with it in your browser.
+
+Full Stack: 
+- React
+- Typescript, NodeJS, and JavaScript
+- Python, Django, and Flask
+- RabbitMQ Message Queue Service (uses AWS internally)
+- MySQL 
+- Docker
+- HTML
+- CSS, Bootstrap
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
